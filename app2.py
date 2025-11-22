@@ -90,7 +90,7 @@ def train_model(df, feature_cols, target_col, numeric_cols, cat_cols):
 # =======================
 # 3. STREAMLIT UI
 # =======================
-st.title("Prediksi Harga Mobil - LightGBM")
+st.title("Prediksi Harga Mobil - LightGBM oleh Fadhil Faisol    ")
 
 df, feature_cols, target_col, numeric_cols, cat_cols = load_data()
 
@@ -102,7 +102,7 @@ st.write(f"MAE (test): **{mae:,.2f}**")
 
 st.markdown("---")
 
-st.header("Input Fitur Mobil")
+st.header("Input Atribut Mobil")
 
 
 def col_min(c):
